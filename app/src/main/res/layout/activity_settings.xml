@@ -1,0 +1,35 @@
+//Jakub Szulwinski S1627131
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:id="@+id/settings"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseHour1"
+        android:hint="Enter 1st update hour between 0 and 23"
+        android:maxLength="2"
+        android:inputType="numberSigned"
+        />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseHour2"
+        android:hint="Enter 2nd update hour between 0 and 23"
+        android:maxLength="2"
+        android:inputType="numberSigned"
+        />
+
+
+
+</LinearLayout>
